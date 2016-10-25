@@ -64,6 +64,7 @@ BaseAppsToInclude = AppsToRun ++
                      bear,
                      mochijson2,
                      jiffy,
+		     lasse,
                      cache_tab,
                      pa,
                      usec,
