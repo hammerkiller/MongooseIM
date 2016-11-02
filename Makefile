@@ -56,8 +56,6 @@ fake_cert.pem:
 fake_server.pem:
 	cat fake_cert.pem fake_key.pem > fake_server.pem
 
-include dialyzer.mk
-
 xeplist: escript
 	escript $(XEP_TOOL)/xep_tool.escript markdown $(EJD_EBIN)
 
